@@ -22,7 +22,7 @@ class CustomForm extends StatelessWidget {
                 Navigator.pushNamed(context, "/home");
               }
             },
-            child: Text("Login", style: TextStyle(color: Colors.white)),
+            child: Text("Login"),
           ),
         ],
       ),
