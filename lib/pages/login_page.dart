@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:login_app/components/custom_form.dart';
 import 'package:login_app/components/logo.dart';
 import 'package:login_app/size.dart';
 
@@ -13,6 +14,8 @@ class LoginPage extends StatelessWidget {
           children: [
             SizedBox(height: xlarfe_gap),
             Logo("Login"),
+            SizedBox(height: large_gap),
+            CustomForm(),
           ],
         ),
       ),
